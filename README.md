@@ -13,18 +13,19 @@
 
 1. **Option A: Global installation (recommended)**
 ```bash
-# Clone or copy project files
-git clone [URL_REPO] constant-commits
+# Clone the repository
+git clone https://github.com/javi-g/ConstantCommits.git constant-commits
 cd constant-commits
 
-# Install globally
-npm install -g .
+# Install dependencies and link globally
+npm install
+npm link
 ```
 
 2. **Option B: Local installation**
 ```bash
-# Clone or copy files
-git clone [URL_REPO] constant-commits
+# Clone the repository
+git clone https://github.com/javi-g/ConstantCommits.git constant-commits
 cd constant-commits
 
 # Install dependencies

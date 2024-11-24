@@ -1,5 +1,7 @@
 # Constant Commits
 
+*Leer en otros idiomas: [English](README.md)*
+
 Sistema de monitorización automática de cambios en archivos con commits automáticos. Diseñado especialmente para respaldar cambios durante el desarrollo con herramientas AI.
 
 ## Prerrequisitos
@@ -12,18 +14,19 @@ Sistema de monitorización automática de cambios en archivos con commits autom�
 
 1. **Opción A: Instalación global (recomendada)**
 ```bash
-# Clonar o copiar los archivos del proyecto
-git clone [URL_REPO] constant-commits
+# Clonar el repositorio
+git clone https://github.com/javi-g/ConstantCommits.git constant-commits
 cd constant-commits
 
-# Instalar globalmente
-npm install -g .
+# Instalar dependencias y enlazar globalmente
+npm install
+npm link
 ```
 
 2. **Opción B: Instalación local**
 ```bash
-# Clonar o copiar los archivos
-git clone [URL_REPO] constant-commits
+# Clonar el repositorio
+git clone https://github.com/javi-g/ConstantCommits.git constant-commits
 cd constant-commits
 
 # Instalar dependencias
