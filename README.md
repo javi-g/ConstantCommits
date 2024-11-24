@@ -2,8 +2,7 @@
 
 *Read this in other languages: [Español](README.es.md)*
 
-Automatic file change monitoring system with automatic commits. Specially designed to back up changes during development with AI tools.
-
+ 
 ## Prerequisites
 
 - Node.js installed
@@ -112,9 +111,9 @@ If you encounter errors:
 
 ## Contact
 
-Javi Guembe - [@javiG](https://twitter.com/javiG)
+Javi Guembe - [@javiG](https://twitter.com/javig_en)
 
-Project Link: 
+Project Link: https://github.com/javi-g/ConstantCommits
 
 ## Attribution
 

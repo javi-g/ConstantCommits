@@ -110,9 +110,9 @@ Si encuentras errores:
 
 ## Contacto
 
-Javi Guembe - [@javiG](https://twitter.com/javiG)
+Javi Guembe - [@javiG](https://twitter.com/javig_en)
 
-Link del Proyecto: 
+Link del Proyecto: https://github.com/javi-g/ConstantCommits
 
 ## Atribución
 
