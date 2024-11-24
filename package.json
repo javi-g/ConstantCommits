@@ -1,0 +1,19 @@
+{
+  "name": "constant-commits",
+  "version": "1.0.0",
+  "description": "Automatic file monitoring and commit system",
+  "main": "monitor.js",
+  "bin": {
+    "constant-commits": "./monitor.js"
+  },
+  "scripts": {
+    "start": "node monitor.js start",
+    "stop": "node monitor.js stop"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "simple-git": "^3.19.1"
+  }
+}
