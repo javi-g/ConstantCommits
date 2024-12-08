@@ -69,13 +69,25 @@ Si está instalado localmente:
 node monitor.js start
 ```
 
+### Comandos disponibles
+- `Ctrl+C`: Detener monitorización
+- Windows: `Alt+C`: Crear commit manual con mensaje personalizado
+- Mac: `Option+C`: Crear commit manual con mensaje personalizado
+
+### Commits manuales
+1. Presione `Alt+C` (Windows) o `Option+C` (Mac) en cualquier momento
+2. Ingrese su mensaje de commit cuando se le solicite
+3. El commit se creará y pusheará automáticamente
+4. El monitorización automático continuará normalmente
+
 ### Detener monitorización
-Presionar `Ctrl+C` en la terminal donde está corriendo el monitor.
+Presione `Ctrl+C` en la terminal donde está corriendo el monitor.
+
 
 ## Características
 
 - Monitorización en tiempo real de cambios en archivos
-- Commits automáticos cada minuto (solo cuando hay cambios)
+- Commits automatizados cada minuto (solo cuando hay cambios)
 - Captura completa de cambios mediante `git add .` antes de cada commit
 - Push automático después de cada commit
 - Ignora automáticamente:
@@ -86,6 +98,7 @@ Presionar `Ctrl+C` en la terminal donde está corriendo el monitor.
   - Archivos detectados por el monitor
   - Timestamp de commits
   - Estado de push
+- Commit manual con mensaje personalizado con atajo de teclado
 
 ## Comportamiento
 
@@ -104,6 +117,7 @@ Presionar `Ctrl+C` en la terminal donde está corriendo el monitor.
 4. Usar Ctrl+C para detener limpiamente
 
 ## Solución de problemas
+No he conseguido hacerlo funcionar globalmente en mi Mac, pero funciona bien localmente.
 
 Si encuentras errores:
 1. Verifica que Git está instalado y configurado
@@ -113,7 +127,7 @@ Si encuentras errores:
 
 ## Contacto
 
-Javi Guembe - [@javiG](https://twitter.com/javig_en)
+Javi Guembe - [@javiG](https://twitter.com/javig)
 
 Link del Proyecto: https://github.com/javi-g/ConstantCommits
 
